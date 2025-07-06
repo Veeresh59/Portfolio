@@ -82,11 +82,7 @@ const Projects = () => {
                                         <span key={techIndex} className="tech-tag">{tech}</span>
                                     ))}
                                 </div>
-                                <div className="project-links">
-                                    <a href={project.githubUrl} className="btn-primary" target="_blank" rel="noopener noreferrer">
-                                        GitHub
-                                    </a>
-                                </div>
+
                             </div>
                         </div>
                     ))}
