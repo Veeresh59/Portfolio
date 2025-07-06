@@ -22,7 +22,6 @@ const Skills = () => {
             title: "Tools & Platforms",
             skills: [
                 { name: "Git/GitHub", level: 80 },
-                { name: "Vercel", level: 80 },
                 { name: "Postman", level: 85 }
             ]
         }
