@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My React App
 
 This is a simple React application designed to demonstrate the use of React components and TypeScript. The application includes enhanced CSS styles to provide a more professional look and feel.
@@ -53,3 +54,8 @@ To get started with this project, follow these steps:
 ## License
 
 This project is licensed under the MIT License.
+=======
+# Veeresh Hiremath Portfolio
+
+This is the personal portfolio website for Veeresh Hiremath, built with React.
+>>>>>>> 09f61259f67f812eb44a90e893501c2fa3e00e58
