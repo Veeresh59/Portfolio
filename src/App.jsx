@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './styles/style.css';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -9,9 +9,17 @@ import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 
 const App = () => {
+    const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+    useEffect(() => {
+        const handleResize = () => setIsMobile(window.innerWidth <= 768);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
     return (
         <div className="App">
-            <Navbar />
+            {isMobile && <Navbar />}
             <Hero />
             <About />
             <Skills />
